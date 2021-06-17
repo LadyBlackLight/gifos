@@ -1,0 +1,120 @@
+.hero {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+    margin: 66px 0 79px;
+    position: relative;
+}
+.light h1 {
+    font-size: 36px;
+    line-height: 42.19px;
+    font-weight: 400;
+    color: #572ee5;
+    margin-bottom: 14px;
+}
+.dark h1 {
+    font-size: 36px;
+    line-height: 42.19px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+h1 span {
+    font-weight: 700;
+}
+.light input[type="search"] {
+    width: 542px;
+    height: 52px;
+    padding-right: 50px;
+    border: 1px solid #121212;
+    border-radius: 61px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 30px;
+    position: relative;
+}
+.dark input[type="search"] {
+    width: 542px;
+    height: 52px;
+    padding-right: 50px;
+    border: 1px solid #ffffff;
+    color: white;
+    background-color: transparent;
+    border-radius: 61px;
+    outline: none;
+    font-size: 18px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.light .btn-submit {
+    margin-left: -50px;
+    height: 52px;
+    width: 86px;
+    background: #572ee5;
+    color: white;
+    border: 1px solid #121212;
+    -webkit-appearance: none;
+    border-radius: 0px 61px 61px 0px;
+    position: absolute;
+}
+.dark .btn-submit {
+    margin-left: -50px;
+    height: 52px;
+    width: 86px;
+    background: #572ee5;
+    color: white;
+    border: 1px solid #ffffff;
+    -webkit-appearance: none;
+    border-radius: 0px 61px 61px 0px;
+    position: absolute;
+}
+.light .sugerencias {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: -176px;
+    width: 470px;
+    height: 177px;
+    left: 201px;
+    padding-left: 30px;
+    background-color: white;
+    border: 1px solid #121212;
+    border-radius: 0 0 20px 20px;
+}
+.dark .sugerencias {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: -176px;
+    width: 470px;
+    height: 177px;
+    left: 201px;
+    padding-left: 30px;
+    background-color: #35363a;
+    border: 1px solid white;
+    border-radius: 0 0 20px 20px;
+}
+.light .sugerencias button{
+    cursor: pointer;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    padding: 7px 0;
+}
+.dark .sugerencias button{
+    cursor: pointer;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    padding: 7px 0;
+    color: white;
+}
+.sugerencias button:hover{
+    font-weight: 700;
+}

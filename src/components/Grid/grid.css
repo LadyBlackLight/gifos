@@ -1,0 +1,40 @@
+.grid {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+}
+.light h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #572EE5;
+    margin-bottom: 31px;
+}
+.dark h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+.light .error{
+    background-color: #E7E7E7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 55px 28px;
+    width: 100%;
+    color: #dc3545;
+  }
+  .dark .error{
+    background-color: #212121;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 55px 28px;
+    width: 100%;
+    color: #dc3545;
+  }
